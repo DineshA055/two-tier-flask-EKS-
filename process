@@ -1,0 +1,9 @@
+In between creation of cluster in EKS
+
+
+try to understand few concept 
+Note :- mysql you have provided password is displayed in code not a good practise 
+        you need to encrypt the password in base 64
+
+      ex:- CMD -  echo -n "xxxxx" | base64     # Here xxx is your password and enter you will get a encrypted password
+        YWRtaW4=
